@@ -1,0 +1,48 @@
+body {
+  font-size: 14px;
+}
+
+nav {
+  background-color: yellow;
+  height: 100px;
+  margin-top: -110px; /* had to change margin so that the navbar and green box don't overlap */
+  position: fixed;
+  width: 100%;
+}
+
+/* For all of the h3*/
+section {
+  margin: 0 auto;
+  margin-top: 110px; /* had to add margin so that the navbar and green box don't overlap */
+  width: 60%;
+}
+
+/* Title h3*/
+h1 {
+  font-family: sans-serif;
+  font-size: 2em;
+}
+
+.example, h3 {
+  padding-top: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.3em;
+}
+
+.element,.yellow {
+  height: 100px;
+  margin: 10px 0;
+  width: 100%;
+}
+
+.element {
+  background-color: green;
+}
+
+/* For the last 3 h3*/
+.yellow {
+  background-color: yellow;
+}
